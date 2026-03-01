@@ -39,8 +39,15 @@ body {
 #hero {
     min-height: 100vh;
     display: flex;
-    justify-content: flex-start;
-    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero p {
+    font-family: var(--font1);
+    font-size: 1.4rem;
+    color: var(--c1);
+    padding-top: 30px;
 }
 
 h1 {
@@ -54,7 +61,7 @@ h1 {
 }
 
 .hero-illustration {
-    width: min(90vw, 320px);
+    width: 100vw;
     height: auto;
 }
 
